@@ -1,0 +1,266 @@
+:root{
+    --colormyfav: red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: black;
+    color: white;
+}
+
+.website-header {
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.website-header img {
+    width: 100px;
+    height: 80px;
+    margin: 0px 30px;
+}
+.website-header h4{
+    font-size: 30px;
+    position: relative;
+    bottom: 9px;
+    color: white;
+    font-weight: 500;
+    
+}
+.social-icons{
+     text-align: right;
+     flex-grow: 1;
+}
+.breaking-news {
+    padding: 0 30px 0 60px;
+    display: flex;
+}
+#btnext {
+        width: 200px;
+         font-size: 20px;
+         color: var(--colormyfav);
+         font-weight: 600;
+         margin: auto 0;
+         text-transform: uppercase;
+        
+}
+.breaking-news marquee a {
+    font-size: 30px;
+    padding: 0 12px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+}
+.breaking-news p {
+    font-size: 22px;
+    padding: 6px;
+    color:darkgrey;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.popular-news h2 {
+    font-size: 34px;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+.content {
+  width: 33.33%;
+  height: 350px;
+  float: left;
+    
+}
+.content img {
+    width: 500px; 
+}
+
+.current-political {
+    display: flex;
+    width: 100%;
+}
+.current-news {
+    width: 50%;
+    padding-right: 33px;
+    margin-left: 32px;
+}
+.current-news h2{
+    margin: 0;
+    font-weight: bolder; 
+    background-color: lightsalmon;
+}
+.political-news h2{
+    margin: 0;
+    font-weight: bolder; 
+    background-color: lightgreen;
+}
+.political-news {
+    width: 50%;
+    margin-right: 32px;
+}
+.news-container {
+    position: relative;
+    cursor: pointer;
+}
+.news-container img {
+    width: 100%;
+    filter: brightness(0.7);
+}
+.news-para {
+    font-size: 34px;
+    position: absolute;
+    color: white;
+    z-index: 2;
+    bottom: 5px;
+    padding: 9px;
+    font-weight: bolder;
+    transition: bottom 0.5s ease-out;
+    
+}
+.news-para a {
+    text-decoration: none;
+    color: white;
+}
+.news-container:hover >.news-para {
+    bottom: 20px;
+}
+
+/* pura section */ .more-news{
+          display: flex;
+          background: black;
+          color: white;
+          justify-content: space-around;
+          text-align: justify;
+          margin: 32px 0px 32px 0px;
+ }
+/* news section*/ .news-section {
+           display:  flex;
+           flex-basis: 70%;
+           margin: 18px 0px 0px 0px;
+            font-size: 15px;
+    
+}
+.news-section img {
+    width: 481px;
+    height: 298px;
+    justify-content: space-around;
+}
+.news-section h3 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+.world, .sports {
+    flex-basis: 45%;
+    padding: 0px 30px 14px 30px;
+}
+.text-box {
+    width: 481px;
+}
+.world h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: lightgreen;
+    margin: 0;
+}
+.sports h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: lightsalmon;
+    margin: 0;
+}
+.aside {
+    flex-basis: 25%;
+    padding: 13px;
+    border: 2px solid red;
+    margin: 10px;
+    border-radius: 12px;
+}
+.aside h3 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.recent-news{
+    display: flex;
+    padding: 2px 0px 19px 0px;
+}
+ .recent-news img {
+ width: 184px;
+ height: 157px;
+}
+.recent-news p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    padding: 5px;
+}
+.footer-section {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+}
+.footer-container {
+    display: flex;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: justify;
+  
+    
+}
+.social-media {
+    flex-basis: 30%;
+}
+
+.address{
+    flex-basis: 30%;
+}
+.social-media p, .address p, .support p {
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: black;
+}
+.social-media i {
+    font-size: 43px;
+    text-align: center;
+    padding: 5px 9px 5px 9px;
+    border: 2px solid black;
+    border-radius: 13px;
+}
+.social-media h2, .address h2, .support h2 {
+    font-style: italic;
+    font-size: 40px;
+    text-transform: lowercase;
+    font-weight: bolder;
+}
+.support {
+    flex-basis: 30%;
+}
+.support input {
+    font-size: 22px;
+    margin: 2px 8px 2px 8px;
+}
+#aajtak {
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+    display: block;
+    border: 1px solid black;
+    font-family: serif;
+    margin-left: 50px;
+    margin: 50px;
+    padding: 10px 20px;
+   
+}
+#aajtak:hover {
+    background-color: red;
+    color: white;
+}
